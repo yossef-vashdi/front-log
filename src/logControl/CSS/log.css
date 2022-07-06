@@ -1,0 +1,27 @@
+* {
+box-sizing: border-box;
+    
+}
+.db-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.db-list select , .db-list .button {
+    padding: 10px 20px;
+    width: 200px;
+    height: 40px;
+    margin: 4px;
+}
+
+.item-buttons {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-buttons button {
+    width: 100px;
+}
